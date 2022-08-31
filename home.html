@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TweetClone. It's what's happening</title>
+    <link rel="shortcut icon" href="./assets/img/tweelo_logo_colored.svg" type="image/svg">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+
+    <div class="dash-container">
+        <header class="dash-header">
+            <nav class="dash-nav">
+                <div class="dash-logo-image"></div>
+                <ul class="dash-menu">
+                    <li>
+                        <a class="active" href="#">
+                            <i class="bi bi-house"></i>
+                            <span>Home</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="bi bi-hash"></i>
+                            <span>Explore</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="bi bi-bell"></i>
+                            <span>Notifications</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="bi bi-envelope"></i>
+                            <span>Messages</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="bi bi-bookmark"></i>
+                            <span>Bookmarks</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="bi bi-list-ul"></i>
+                            <span>Lists</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="bi bi-person"></i>
+                            <span>Profile</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="bi bi-three-dots"></i>
+                            <span>More</span>
+                        </a>
+                    </li>
+                </ul>
+
+                <button class="dash-tweet-btn">Tweet</button>
+
+            </nav>
+            <div class="dash-account-user">
+                <div class="image"></div>
+                <div class="content">
+                    <div class="fullname">Ayoub Hassini</div>
+                    <div class="username">@Aze1_Ayoub</div>
+                </div>
+                <i class="bi bi-three-dots"></i>
+            </div>
+        </header>
+        <main>
+            <div class="dash-posts">
+                <div class="posts-header">
+                    <h3>Home</h3>
+                </div>
+
+                <div class="posts-post_send-con no-hover">
+                    <div class="posts-post_send-img">
+                        <img src="./assets/img/avatar.jpg" alt="">
+                    </div>
+                    <div class="posts-post_send-input">
+                        <form action="" method="post">
+                            <textarea name="post" placeholder="What's happening?" oninput="auto_grow(this);"></textarea>
+                        
+                            <button class="everyone-can-reply-btn">
+                                <i class="bi bi-globe"></i> &nbsp;&nbsp;Everyone can reply
+                            </button>
+                        </form>
+                    </div>
+                </div>
+                <hr class="hr-style">
+                <div style="padding: 0 16px 10px 16px;" class="posts-post_send-con no-hover">
+                    <div class="posts-post_send-img"></div>
+                    <div class="posts-post_send-input">
+                        <div class="posts-post_send_footer">
+                            <div>
+                                <button class="everyone-can-reply-btn2">
+                                    <i class="bi bi-image"></i>
+                                </button>
+                                <button class="everyone-can-reply-btn2">
+                                    <i class="bi bi-filetype-gif"></i>
+                                </button>
+                                <button class="everyone-can-reply-btn2">
+                                    <i class="bi bi-bar-chart-line-fill"></i>
+                                </button>
+                                <button class="everyone-can-reply-btn2">
+                                    <i class="bi bi-emoji-smile"></i>
+                                </button>
+                                <button class="everyone-can-reply-btn2">
+                                    <i class="bi bi-calendar"></i>
+                                </button>
+                                <button class="everyone-can-reply-btn2 disabled">
+                                    <i class="bi bi-geo-alt"></i>
+                                </button>
+                            </div>
+                            <button class="posts-post_tweet disabled">Tweet</button>
+                        </div>
+                        
+                    </div>
+                </div>
+                <hr class="hr-style2">
+                <div class="posts-post_send-con">
+                    <div class="posts-post_send-img">
+                        <img src="./assets/img/avatar.jpg" alt="">
+                    </div>
+                    <div class="posts-post_send-input">
+                        <div class="posts-post_send-con2">
+                            <div class="posts-post_user-info">
+                                <div class="posts-post_user-fullname">
+                                    <span class="user-fullname">Ayoub Hassini</span>
+                                    <i class="bi bi-check-circle-fill"></i>
+                                    <span class="username">@Aze1_Ayoub · 13h</span>
+                                </div>
+                                <div class="posts-post_user-content">
+                                    Hello Everyone, This is my first post
+                                </div>
+                            </div>
+                            <img src="./assets/img/post1.jpeg" alt="">
+                            <div class="posts-post_send-footer">
+                                <button>
+                                    <i class="bi bi-chat-left"></i>
+                                    <span>6,392</span>
+                                </button>
+                                <button>
+                                    <i class="bi bi-arrow-repeat"></i>
+                                    <span>7,814</span>
+                                </button>
+                                <button>
+                                    <i class="bi bi-heart"></i>
+                                    <span>120,4K</span>
+                                </button>
+                                <button>
+                                    <i class="bi bi-upload"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="posts-post_send-con">
+                    <div class="posts-post_send-img">
+                        <img src="./assets/img/avatar.jpg" alt="">
+                    </div>
+                    <div class="posts-post_send-input">
+                        <div class="posts-post_send-con2">
+                            <div class="posts-post_user-info">
+                                <div class="posts-post_user-fullname">
+                                    <span class="user-fullname">Ayoub Hassini</span>
+                                    <i class="bi bi-check-circle-fill"></i>
+                                    <span class="username">@Aze1_Ayoub · 13h</span>
+                                </div>
+                                <div class="posts-post_user-content">
+                                    Hello Everyone, This is my second post
+                                </div>
+                                <div class="posts-post_send-footer">
+                                    <button>
+                                        <i class="bi bi-chat-left"></i>
+                                        <span>6,392</span>
+                                    </button>
+                                    <button>
+                                        <i class="bi bi-arrow-repeat"></i>
+                                        <span>7,814</span>
+                                    </button>
+                                    <button>
+                                        <i class="bi bi-heart"></i>
+                                        <span>120,4K</span>
+                                    </button>
+                                    <button>
+                                        <i class="bi bi-upload"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="dash-trends">
+                <form class="search-form" action="" method="post">
+                    <input type="text" name="q" placeholder="Search TweetClone">
+                    <i class="bi bi-search"></i>
+                </form>
+
+                <div class="dash-trends_list">
+                    <h3>Trends for you</h3>
+
+                    <div class="dash-trend_con">
+                        <div class="dash-trend_title">Politics · Trending</div>
+                        <div class="dash-trend_body">LGBT</div>
+                        <div class="dash-trend_footer">54.9K Tweets</div>
+                    </div>
+                    <div class="dash-trend_con">
+                        <div class="dash-trend_title">Politics · Trending</div>
+                        <div class="dash-trend_body">LGBT</div>
+                        <div class="dash-trend_footer">54.9K Tweets</div>
+                    </div>
+                    <div class="dash-trend_con">
+                        <div class="dash-trend_title">Politics · Trending</div>
+                        <div class="dash-trend_body">LGBT</div>
+                        <div class="dash-trend_footer">54.9K Tweets</div>
+                    </div>
+                    <div class="dash-trend_con">
+                        <div class="dash-trend_title">Politics · Trending</div>
+                        <div class="dash-trend_body">LGBT</div>
+                        <div class="dash-trend_footer">54.9K Tweets</div>
+                    </div>
+                    <div class="dash-trend_con">
+                        <div class="dash-trend_title">Politics · Trending</div>
+                        <div class="dash-trend_body">LGBT</div>
+                        <div class="dash-trend_footer">54.9K Tweets</div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <div class="hidden-bar_menu">
+        <div class="hidden-bar_menu-buttons">
+            <button>
+                <i class="bi bi-house-fill"></i>
+            </button>
+            <button>
+                <i class="bi bi-search"></i>
+            </button>
+            <button>
+                <i class="bi bi-bell"></i>
+            </button>
+            <button>
+                <i class="bi bi-envelope"></i>
+            </button>
+        </div>
+    </div>
+
+    <div class="loader-con">
+        <div class="loader-box">
+            <div class="loader"></div>
+        </div>
+    </div>
+
+    <script src="./assets/js/jquery.min.js"></script>
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>
